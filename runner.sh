@@ -1,5 +1,5 @@
-sudo apt update -y
-sudo apt install python3 python3-dev build-essential libasound2-dev -y
+sudo apt update
+sudo apt install python3 python3-dev build-essential libasound2-dev
 wget https://github.com/DiscordPhone/pjproject/archive/py37.zip
 unzip py37.zip && cd pjproject-py37
 chmod +x configure aconfigure
